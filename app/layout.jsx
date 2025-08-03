@@ -19,12 +19,15 @@ const geistMono = localFont({
 export default function RootLayout({children}) {
   return (
     <html lang="en">
+      <head>
+        <title>ΔΩΡΕΑΝ ΠΡΟΒΛΕΨΕΙΣ</title>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header />
           {children}
-          <CTA />
+          {/* <CTA /> */}
         <Footer />
       </body>
     </html>

@@ -1,11 +1,21 @@
 import Link from 'next/link';
+import Image from "next/image";
+
 
 const Header = () => {
   return (
-    <header className="bg-primary text-primary-foreground py-4">
-        <div className="container mx-auto px-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold">MovieFlix</h1>
-          <nav>
+    <header className="header-bg text-primary-foreground h-60">
+        <div className="container header-container">
+          
+          <Image
+              className='header-img'
+              src="/G__1_-removebg-preview.png"
+              alt=''
+              width={180}
+              height={180}
+          />
+          <h1 className="header-text font-bold">ΔΩΡΕΑΝ ΠΡΟΒΛΕΨΕΙΣ</h1>
+          {/* <nav>
             <ul className="flex space-x-4">
               <li>
                 <Link href="/" className="hover:underline">
@@ -23,7 +33,7 @@ const Header = () => {
                 </Link>
               </li>
             </ul>
-          </nav>
+          </nav> */}
         </div>
       </header>
   )

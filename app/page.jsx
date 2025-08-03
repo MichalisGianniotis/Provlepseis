@@ -1,4 +1,4 @@
-import {MovieList} from "@/components/movie-list"
+import {MatchList} from "@/components/matches-list"
 
 export default async function Home() {
   // const movies = await getMovies()
@@ -6,8 +6,16 @@ export default async function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <main className="flex-grow container mx-auto px-4 py-8">
-        <h2 className="text-3xl font-bold mb-6">Featured Movies</h2>
-        <MovieList />
+        {/* <article className="text-center bg-blue-900 text-white p-4">
+                <h2 className="p-4">ΠΡΟΒΛΕΨΕΙΣ</h2>
+                <p>Οποιαδήποτε πρόβλεψη είναι συμφώνα με τα στατιστικά και την προσωπική μου γνώμη.</p>
+                <div className="leading-9 text-red-600">
+                  <strong>ΚΙΝΔΥΝΟΣ ΑΠΩΛΕΙΑΣ ΠΕΡΙΟΥΣΙΑΣ. </strong>
+                  <strong>ΠΑΙΞΕ ΥΠΕΥΘΥΝΑ</strong>
+                </div>
+        </article> */}
+        {/* <h2 className="text-3xl font-bold mb-6 mt-6 text-center">Featured Matches</h2> */}
+        <MatchList />
       </main>
     </div>
   )
