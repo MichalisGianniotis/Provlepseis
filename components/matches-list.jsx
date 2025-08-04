@@ -38,7 +38,7 @@ export function MatchList() {
                             </svg> */}
                             {/* <span className="ml-1 text-white">{movie.rating.toFixed(1)}</span> */}
                         </div>
-                        <div className="text-white ods-pos w-4/6 bg-red-900 text-lg font-semibold leading-8 rounded-md">{match.betOdds}</div>
+                        <div className="text-white ods-pos w-4/6 bg-red-900 text-lg font-normal leading-8 rounded-md">{match.betOdds}</div>
                         {/* </div> */}
                     </div>
                     </div>

@@ -46,7 +46,10 @@ body {
     font-size: 30px;
 }
 .ods-pos {
-    margin: 15px auto;
+    position: absolute;
+    top: 270px;
+    left: 35px;
+    /* margin: 15px auto; */
 }
 .item-d {
     font-size: 30px;
@@ -90,10 +93,10 @@ body {
         /* display: flex;
         flex-direction: column; */
         height: 350px;
-        width: 280px;
+        width: 250px;
     }
     .item-h {
-        font-size: 22px;
+        font-size: 21px;
     }
     .item-d {
         font-size: 18px;
@@ -241,8 +244,12 @@ body {
         width: 270px;
     }
     .ods-pos {
-        margin: 45px auto;
+        top: 310px;
+        left: 40px;
     }
+    /* .ods-pos {
+        margin: 45px auto;
+    } */
     .info {
         margin-top: 16px;
     }
@@ -272,7 +279,8 @@ body {
         width: 250px;
     }
     .ods-pos {
-        margin: 35px auto;
+        top: 290px;
+        left: 40px;
     }
     .info {
         margin-top: 6px;
