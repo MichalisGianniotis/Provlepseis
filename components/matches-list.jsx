@@ -8,7 +8,7 @@ export function MatchList() {
         <div className="container mx-auto py-8">
             <div className="container1">
                 {matches.map((match) => (
-                <div key={match.id} className="relative group overflow-hidden shadow-md item">
+                <div key={match.id} className="relative group overflow-hidden  item">
                     <div className="aspect-[2/3] relative">
                     <div className="absolute inset-0">
                         {/* <div className="absolute bottom-0 left-0 right-0 p-4"> */}
