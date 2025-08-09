@@ -2,7 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/common/Header";
 import Footer from "@/components/common/Footer";
-// import CTA from "@/components/common/CTA";
+import CTA from "@/components/common/CTA";
 
 
 const geistSans = localFont({
@@ -27,7 +27,7 @@ export default function RootLayout({children}) {
       >
         <Header />
           {children}
-          {/* <CTA /> */}
+        <CTA />
         <Footer />
       </body>
     </html>

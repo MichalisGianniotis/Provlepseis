@@ -1,5 +1,5 @@
 const matches = [
-    { id: 1, title1: "Ίντερ Τούρκου", title2: "AC Ούλου", bet1: "Ίντερ Τούρκου", bet2: "Ναι", betType1: "• Τελικό Αποτέλεσμα :", betType2: "• G/G :", betOdds: "2.57",},
+    { id: 1, title1: "Καϊζερσλάουτερν", title2: "Σάλκε", bet1: "Σάλκε", bet2: "", betType1: "Τελικό Αποτέλεσμα :", betType2: "", betOdds: "2.82",},
     { id: 2, title1: "Πρ. Μούνστερ", title2: "Πάντερμπορν", bet1: "Πάντερμπορν", bet2: "Ναι", betType1: "• Τελικό Αποτέλεσμα :", betType2: "• G/G :", betOdds: "3.80",},
     { id: 3, title1: "Νυρεμβέργη", title2: "Ντάρμσταντ", bet1: "Ντάρμσταντ", bet2: "", betType1: "Τελικό Αποτέλεσμα :", betType2: "", betOdds: "2.25",},
     { id: 4, title1: "Σινσινάτι", title2: "Γουαδαλαχάρα", bet1: "Σινσινάτι", bet2: "Over 2.5", betType1: "• Τελικό Αποτέλεσμα :", betType2: "• Συνολικά Γκολ :", betOdds: "2.50",},
