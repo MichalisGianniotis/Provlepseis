@@ -42,8 +42,9 @@ body {
   z-index: 3;
   animation-name: matchShow;
   animation-timeline: view();
-  animation-range: entry 0% cover 70%;
+  animation-range: entry 0% cover 60%;
   animation-fill-mode: forwards;
+  transform: translateY(160px);
 }
 @keyframes matchShow {
     0% {
@@ -52,6 +53,7 @@ body {
     }
     50% {
         box-shadow: none;
+        transform: translateY(-30px);
     }
     100% {
         box-shadow: 10px 10px 5px #7f1d1d;
