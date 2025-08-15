@@ -40,6 +40,23 @@ body {
   /* background-image: linear-gradient(to bottom left, rgb(116, 1, 1), black, black, rgb(116, 1, 1) ); */
   padding: 16px;
   z-index: 3;
+  animation-name: matchShow;
+  animation-timeline: view();
+  animation-range: entry 0% cover 70%;
+  animation-fill-mode: forwards;
+}
+@keyframes matchShow {
+    0% {
+        transform: translateY(160px);
+        box-shadow: none;
+    }
+    50% {
+        box-shadow: none;
+    }
+    100% {
+        box-shadow: 10px 10px 5px #7f1d1d;
+        transform: translateY(-30px);   
+    }
 }
 .item-h {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
