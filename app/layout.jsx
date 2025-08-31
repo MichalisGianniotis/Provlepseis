@@ -24,9 +24,9 @@ export const metadata = {
   keywords:
     "προβλέψεις ποδοσφαίρου, στοιχηματικές προβλέψεις, αγώνες, αποδόσεις",
   authors: [{ name: "GXX" }],
-  icons: {
-    icon: '/G__1_-removebg-preview.png', // favicon από public folder
-  },
+  // icons: {
+  //   icon: '/G__1_-removebg-preview.png', // favicon από public folder
+  // },
   openGraph: {
     title: "Provlepseis - Προβλέψεις Ποδοσφαίρου",
     description:
@@ -56,6 +56,7 @@ export default function RootLayout({children}) {
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/G__1_-removebg-preview.png" type="image/png" />
         {/* <title>ΔΩΡΕΑΝ ΠΡΟΒΛΕΨΕΙΣ</title> */}
       </head>
       <body
