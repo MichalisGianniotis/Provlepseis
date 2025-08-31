@@ -1,10 +1,15 @@
 import {MatchList} from "@/components/matches-list"
+import { Button } from "@/components/ui/button"
 
 export default async function Home() {
   // const movies = await getMovies()
 
   return (
     <div className="flex flex-col min-h-screen">
+      {/* <div className="text-center">
+        <Button className="mx-6 px-6">Συχνές Ερωτήσεις</Button>
+        <Button className="mx-6 px-6 ">Dark Mode</Button>
+      </div> */}
       <main className="flex-grow container mx-auto px-4 py-8">
         {/* <article className="text-center bg-blue-900 text-white p-4">
                 <h2 className="p-4">ΠΡΟΒΛΕΨΕΙΣ</h2>

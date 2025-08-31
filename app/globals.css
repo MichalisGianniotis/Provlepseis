@@ -45,7 +45,7 @@ body {
   animation-range: entry 0% cover 60%;
   animation-fill-mode: forwards;
   transform: translateY(160px);
-  animation-timing-function: linear;
+  animation-timing-function: ease-in-out;
 }
 @keyframes matchShow {
     0% {
