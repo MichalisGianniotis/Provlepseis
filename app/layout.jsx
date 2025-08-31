@@ -56,7 +56,7 @@ export default function RootLayout({children}) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/G__1_-removebg-preview.png" type="image/png" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
         {/* <title>ΔΩΡΕΑΝ ΠΡΟΒΛΕΨΕΙΣ</title> */}
       </head>
       <body
