@@ -6,7 +6,7 @@ const matches = [
     { id: 5, title1: "Νιου Γιορκ Σίτι", title2: "Κολόμπους Κρού", bet1: "Νιου Γιορκ Σίτι", bet2: "", betType1: "Τελικό Αποτέλεσμα :", betType2: "", betOdds: "2.15",},
     { id: 6, title1: "Νιου Γιορκ Σίτι", title2: "Σάρλοτ", bet1: "Σάρλοτ", bet2: "", betType1: "Τελικό Αποτέλεσμα :", betType2: "", betOdds: "3.50",},
     { id: 7, title1: "Ατλάντα", title2: "Σαν Ντιέγκο", bet1: "Σαν Ντιέγκο", bet2: "Ναι", betType1: "• Τελικό Αποτέλεσμα :", betType2: "• G/G :", betOdds: "3.80",},
-    { id: 8, title1: "Ντάλας", title2: "Κολοράντο Ράπιντς", bet1: "Ντάλας", bet2: "Over 1.5", betType1: "• Τελικό Αποτέλεσμα :", betType2: "• Συνολικά Γκολ :", betOdds: "2.50",},
+    { id: 8, title1: "Ντάλας", title2: "Κολοράντο", bet1: "Ντάλας", bet2: "Over 1.5", betType1: "• Τελικό Αποτέλεσμα :", betType2: "• Συνολικά Γκολ :", betOdds: "2.50",},
     { id: 9, title1: "Όστιν", title2: "Σιάτλ Σάουντερς", bet1: "Σιάτλ Σάουντερς", bet2: "Over 2.5", betType1: "• Τελικό Αποτέλεσμα :", betType2: "• Συνολικά Γκολ :", betOdds: "4.33",},
     { id: 10, title1: "ΚΤΠ", title2: "Γίαρο", bet1: "Γίαρο", bet2: "", betType1: "Τελικό Αποτέλεσμα :", betType2: "", betOdds: "2.72",},
     { id: 11, title1: "Ίλβες", title2: "Γνίνσταν", bet1: "Ίλβες", bet2: "Ναι", betType1: "• Τελικό Αποτέλεσμα :", betType2: "• G/G :", betOdds: "2.32",},
