@@ -1,13 +1,24 @@
+'use client'
+
 // import Image from "next/image";
 import { matches } from "../data/matches";
+
+import { useState } from "react";
 
 
 export function MatchList() {
 
+    const [count, setCount] = useState(3);
+
     return (
         <div className="container mx-auto py-8">
-            <div className="container1">
-                {matches.map((match) => (
+            <div id="coming-soon" className="fixed top-0 left-0 w-full h-full text-white flex justify-center items-center inset-0 bg-black bg-opacity-80 z-50">
+                <div className="text-white text-3xl text-center px-4 bg-[#3b0000] width-auto py-6 rounded-lg">
+                    Το site θα είναι σύντομα ξανά διαθέσιμο!
+                </div>
+            </div>
+            <div id="content" className="container1">
+                {matches.slice(0,count).map((match) => (
                 <div key={match.id} className="relative group overflow-hidden item">
                     <div className="aspect-[2/3] relative">
                     <div className="absolute inset-0">
@@ -49,7 +60,8 @@ export function MatchList() {
                 </div>
                 ))}
             </div>
-            </div>
+            <button onClick={() => setCount(count + 3)} className="text-center flex m-auto bg-black text-white p-4 rounded-xl">Load more</button>
+        </div>
     )
 }
 
